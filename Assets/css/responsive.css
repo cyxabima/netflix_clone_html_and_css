@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1132px) {
+
+    .log{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .log input{
+        width: 100%;
+    }
+    .log button{
+        width: 100%;
+        min-height: 42px;
+    }
+}

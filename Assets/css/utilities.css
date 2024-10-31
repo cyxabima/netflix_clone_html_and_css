@@ -1,0 +1,121 @@
+.log{
+    /* background: cadetblue; */
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    align-items: center;
+    height: 42px;
+    justify-content: center;
+    gap: 10px;
+}
+
+ .log input{
+    /* font-size: 22px; */
+    background-color: black;
+    opacity: .7;
+    color: white;
+    padding: 4px;
+    border-radius: 1px;
+    height: 2px;
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: none;
+    outline: 1px solid white;
+    padding: 12px;
+}
+
+.log button{
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    /* background: red;
+     */
+    background: rgb(229, 9, 20);
+    color: white;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    border: none;
+}
+
+
+
+
+.banner{
+    background: #000;
+    height: 80vh ;
+}
+
+.small-banner{
+    height: 50vh;
+    background: #000;
+    width: 100vw;
+}
+
+
+.divider{
+    width: 100vw;
+    height: 7px;
+    background: rgb(0, 0, 0);
+    opacity: .8 ;
+}
+
+
+.heading{
+    font-weight: bolder;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4em;
+    color: white;
+}
+
+.txt{
+    font-size: 1.1em;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+.question-card{
+    width: 75vw;
+
+    background-color: #2d2b2b;
+    padding: 1.5rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.question-card:hover{
+    transition-property: background-color;
+    background-color: rgb(69, 68, 68);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+}
+
+
+
+.line-height{
+    margin-top: 3.5rem;
+}
+
+
+.symbol{
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: white;
+}
+
+.symbol:hover{
+    transform: rotate(45deg);
+}
+
+.footer_link{
+    color: rgb(215, 213, 213);
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    text-decoration: underline;
+}
